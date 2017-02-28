@@ -3,7 +3,19 @@
   cursor: pointer;
 }
 
+.header-title{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
 
 .red{
   color : red;
+}
+
+.btn-aligner {
+  margin-left: 100px;
+}
+
+//override bootstrap properties
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn {
+  color : yellow !important;
 }

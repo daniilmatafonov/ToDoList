@@ -44,7 +44,7 @@ function show() {
 
     var html = '<ul>';
     for(var i=0; i<todos.length; i++) {
-        html += '<li><div>' + todos[i] + '<button class="btn btn btn-primary mark" id="' + i  + '"> Make priority</button></div></li>';
+        html += '<li><div>' + todos[i] + '<button class="btn btn btn-primary mark btn-aligner" id="' + i  + '"> Make priority</button></div></li>';
     };
     html += '</ul>';
 

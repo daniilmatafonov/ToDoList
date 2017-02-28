@@ -1,16 +1,19 @@
 <doctype html>
 <head>
-  <title>To Do List</title>
+  <title>Simple tasker</title>
   <link rel="stylesheet" type="text/css" href="app.scss"/>
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
 </head>
 <body>
-  <h1>Todo List</h1>
+  <div class="header-title"><h1>Simple Tasker</h1></div>
+
 
   <form role="form">
       <input id="task">
+      <button id="Add" class="btn btn-primary">Add task</button>
   </form>
 
-  <button id="Add">Add task</button>
+
   <div id="todos"></div>
     <script src="public/bundle.js"></script>
 </body>
